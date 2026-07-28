@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Hybrid Cloud Connectivity with AWS Transit Gateway and Site-to-Site VPN
+=======
+# Production-Grade-Hybrid-AWS-Network-Architecture-with-Transit-Gateway
+>>>>>>> 390293c18ae85f8ed8b5cb946a1a63b878dea672
 
 Centralized, scalable, and secure network connectivity between multi-account AWS environments and an on-premises corporate data center, using **AWS Transit Gateway**, **AWS Direct Connect**, **AWS Site-to-Site VPN**, **AWS Network Firewall**, **Amazon Route 53 Resolver**, and **AWS Resource Access Manager (RAM)**.
 
