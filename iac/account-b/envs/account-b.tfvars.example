@@ -1,0 +1,13 @@
+region      = "us-east-1"
+aws_profile = "account-b"
+
+# Populate these from Account A's `terraform output` after accepting the RAM share:
+tgw_id                         = "tgw-0123456789abcdef0"
+production_route_table_id      = "tgw-rtb-0123456789abcdef0"
+non_production_route_table_id  = "tgw-rtb-0fedcba9876543210"
+
+tags = {
+  Project     = "hybrid-cloud-connectivity"
+  Environment = "spoke-workloads"
+  Owner       = "workload-team"
+}

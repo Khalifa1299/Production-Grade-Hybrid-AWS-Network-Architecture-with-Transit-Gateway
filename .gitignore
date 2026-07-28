@@ -1,0 +1,30 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+!envs/*.tfvars.example
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+.terraform.lock.hcl
+
+# AWS CDK
+cdk.out/
+cdk.context.json
+*.d.ts
+*.js
+!jest.config.js
+node_modules/
+
+# General
+.DS_Store
+.vscode/
+.idea/
+*.log
+.env

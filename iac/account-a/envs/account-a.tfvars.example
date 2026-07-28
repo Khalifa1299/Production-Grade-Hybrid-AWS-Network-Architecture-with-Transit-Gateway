@@ -1,0 +1,13 @@
+region             = "us-east-1"
+aws_profile        = "account-a"
+spoke_account_ids  = ["111111111111"]   # Account B and any additional spoke accounts
+onprem_public_ip   = "203.0.113.10"
+onprem_bgp_asn     = 65000
+onprem_domain      = "corp.example.internal."
+onprem_dns_ips     = ["192.168.1.10", "192.168.1.11"]
+
+tags = {
+  Project     = "hybrid-cloud-connectivity"
+  Environment = "shared-networking"
+  Owner       = "network-team"
+}
